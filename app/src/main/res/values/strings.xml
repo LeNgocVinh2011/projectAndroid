@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">RTSP Player</string>
+    <string name="add_layout">Addition Camera</string>
+    <string name="setting">Setting</string>
+    <string name="video_view">Camera view</string>
+    <string name="about_view">Information app</string>
+    <string name="inforApp">1.0.0 beta - 2022-30-04 21:46:45</string>
+    <string name="textApp">RTSP PLayer allows you to play network streams using the libVLC library. The application is open source code.</string>
+    <string name="devInfo">Developed by Le Ngoc Vinh</string>
+    <string name="settingInterface">Interface</string>
+    <string name="camera_hint">Enter the camera name</string>
+    <string name="link_hint">rtsp://</string>
+    <string name="list_empty">List camera is empty.</string>
+
+    <string name="themes">Themes</string>
+    <string name="keythemes">key_themes</string>
+    <string name="themes_sum">Select an application theme</string>
+
+    <string name="screen_orien">Initial screen orientation</string>
+    <string name="keyscreen_orien">key_screen_orientation</string>
+    <string name="orientation_sum">Initial screen orientation of player</string>
+
+    <string name="orien_mode">Select orientation mode</string>
+    <string name="keyorien_mode">key_orientation_mode</string>
+    <string name="orien_mode_sum">Select screen rotation mode</string>
+
+    <string name="info_app">Informations</string>
+    <string name="key_info">key_infor</string>
+
+    <string-array name="pref_themes">
+        <item>Auto (system themes)</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+    <string-array name="pref_themes_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pref_intial">
+        <item>Automatic</item>
+        <item>Horizontal</item>
+    </string-array>
+
+    <string-array name="pref_intial_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="pref_orien_mode">
+        <item>Automatic - always on</item>
+        <item>Automatic - depending on system settings</item>
+        <item>Locked</item>
+    </string-array>
+
+    <string-array name="pref_orien_mode_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

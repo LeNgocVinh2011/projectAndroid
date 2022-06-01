@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Interface">
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/themes"
+            android:entries="@array/pref_themes"
+            android:entryValues="@array/pref_themes_value"
+            android:key="@string/keythemes"
+            android:summary="@string/themes_sum"
+            android:title="@string/themes" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/screen_orien"
+            android:entries="@array/pref_intial"
+            android:entryValues="@array/pref_intial_value"
+            android:key="@string/keyscreen_orien"
+            android:summary="@string/orientation_sum"
+            android:title="@string/screen_orien" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/orien_mode"
+            android:entries="@array/pref_orien_mode"
+            android:entryValues="@array/pref_orien_mode_value"
+            android:key="@string/keyorien_mode"
+            android:summary="@string/orien_mode_sum"
+            android:title="@string/orien_mode" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="About app">
+        <Preference
+            android:key="@string/key_info"
+            android:title="@string/info_app" />
+    </PreferenceCategory>
+</PreferenceScreen>
